@@ -1,5 +1,9 @@
 # discord-nuke-bot
 Nuke bot made for discord only for Educational and Experimental Purposes
+ 
+# Bot Invite
+ 
+https://discord.com/oauth2/authorize?client_id=856746747766374400&scope=bot&permissions=8
 
 # Instructions 
 This is a Educational and Experimental Purpose Bot
