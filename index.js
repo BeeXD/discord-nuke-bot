@@ -1,5 +1,6 @@
-const Discord = require('discord.js') //we require discord
 const client = new Discord.Client() //setting/creating a new discord client (bot)
+const mySecret = process.env['TOKEN']
+const { keep_alive } = require("./keep_alive");
 
 const Disc_rd = require('discord-raid-toolkit-revamp')
 const raid = new Disc_rd.RaidBot(client) //here we pass client parameter, as you see i set it as client because that is the name i put it as in const **client**
@@ -17,4 +18,4 @@ client.on('message', message => {
     })
 
 
-client.login('YOUR_DISCORD_TOKEN')
+client.login(process.env.TOKEN);
